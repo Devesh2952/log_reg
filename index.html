@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login and Registration</title>
+    <link rel="stylesheet" href="login_register.css" >
+</head>
+<body>
+    <h1>Login And Registration Form </h1>
+<div class="form-container">
+    <form id="loginform">
+        <h2>Log In</h2>
+      <div>
+        <label for="loginUsername">Username</label>
+        <input type="text" id="loginUsername" required>
+      </div>
+      <div>
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" required>
+      </div>
+      <button type="submit">Log In</button>
+      <br>
+      <div>
+        <p>username:<strong>admin</strong></p>
+        <p>password:<strong>admin123@</strong></p>
+    </div>
+    </form>
+
+    <form id="registrationform">
+        <h2>Registration</h2>
+        <div>
+            <label for="regUsername">Username</label>
+            <input id="regUsername" type="text" required>
+        </div>
+        <div>
+            <label for="regEmail">Email</label>
+            <input type="email" id="regEmail" required>
+        </div>
+        <div>
+            <label for="regPassword">Password</label>
+            <input type="password" id="regPassword" required >
+        </div>
+        <div>
+            <label for="regConfirmPassword">Confirm Password</label>
+            <input id="regConfirmPassword" type="password" required>
+        </div>
+        <button type="submit">Register</button>
+     </form>
+</div>
+<script src="Login_register.js"></script>
+</body>
+</html>
